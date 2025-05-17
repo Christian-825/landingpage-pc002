@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML - Forms and Semantic HTML</title>
+</head>
+<body>
+
+    <!-- Creates a container element used to group HTML elements -->
+    <!-- header value is used for Search Engine Optimization (SEO) -->
+    <!-- Semantic tags for code readability -->
+    <header>
+        <h1>HTML Tables and Semantic HTML</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>HTML Forms</h2>
+            <p><em>Input elements that make up a form.</em></p>
+
+            <!-- Creates an HTML form to capture user input -->
+            <form action="https://google.com">
+
+                <!-- Creates a label and allows for input field selection when clicked -->
+                <label for="full_name">Full Name:</label><br>
+
+                <!-- Creates an input field to capture user input -->
+                <input type="text" name="full_name" id="full_name" required autocomplete><br>
+
+
+
+                <!-- Add labels and input for Birthdate -->
+                <label for="birth_date">Birthdate:</label><br>
+
+                <!-- Creates an input field to capture user input -->
+                <input type="date" name="birth_date" id="birth_date" required autocomplete><br>
+
+				<!-- Add labels and input for Age -->
+                <label for="age">Age:</label><br>
+
+                <!-- Creates an input field to capture user input -->
+                <input type="number" name="age" id="age" min="1" max="100" required autocomplete><br>
+
+
+
+                <label for="notes">Notes:</label><br>
+                <!-- Creates a larger text input -->
+                <textarea name="notes" rows="5" id="notes"></textarea><br>
+
+                <!-- Creates a button that will submit the form data -->
+                <button type="submit">Submit</button><br>
+                
+                <!-- Creates a button to reset the form data -->          
+                <input type="reset" value="Reset">
+
+
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>

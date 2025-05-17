@@ -1,0 +1,76 @@
+* {
+	font-family: "Garamond";
+	font-weight: bold;
+
+}
+
+body {
+	background-color: lightblue;
+}
+
+h1, h2 {
+	font-family: "Papyrus";
+	color: maroon;
+}
+
+p {
+	color: maroon;
+}
+
+.nav-link {
+	font-size: 20px;
+	color: lightblue;
+
+}
+
+nav {
+	background-color: maroon;
+	text-align: center;
+	padding: 15px;
+
+}
+
+a {
+	text-decoration: none;
+	color: maroon;
+}
+
+#landing {
+	text-align: center;
+}
+
+#profile {
+	height: 350px;
+	width: 350px;
+	border-radius:200px;
+}
+
+
+#artists{
+	text-align: center;
+	margin: 100px;
+ 
+}
+
+.artists-img {
+	height: 300px;
+	width: 300px;
+	border-radius: 15px;
+}
+
+#songs{
+	text-align: center;
+	margin: 100px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+#contact {
+	text-align: center;
+	padding: 8px;
+	background-color: maroon;
+	color: lightblue;
+}

@@ -1,0 +1,48 @@
+    /* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box{
+    height: 150px;
+    width: 150px;
+    padding: 50px;
+    border: 1px solid black;
+    background-color: orange;
+}
+
+
+
+
+
+
+/*w/o border box*/
+/*border and padding is added on top of the width*/
+/*1px + 50px + 150px + 50px + 1px = 252px*/
+
+
+/*w/ border box*/
+/*1px border + 50px left padding + 48px width + 50px right padding + 1 px border = 150px*/
+
+
+
+
+
+
+
+    div {
+        background-color: skyblue;
+        border: 2px solid black;
+        height: 200px;
+        width: 200px;
+    }
+
+    span {
+        background-color: gray;
+        border: 2px solid black;
+        /* height and width cannot be set on span elements and will be ignored. */
+        height: 200px;
+        width: 200px;
+    }

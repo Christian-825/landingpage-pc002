@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Papyrus";
+}
+body {
+    background-color: lightgray;
+}
+
+
+header {
+    background-color: darkblue  ;
+    color: gold;
+}
+
+nav {
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color:  gold;
+}
+
+
+#landing {
+   
+    background-color: darkblue;
+    color: gold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+
+h2 {
+    font-size: 16px ;
+    background-color:gold;
+    color:  darkblue ;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+input {
+    width: 300px;
+    padding: 3px;
+}
+
+button {
+    font-weight:bold;
+    background-color: lightgoldenrodyellow;
+    padding: 3px; 
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;               
+  flex-wrap: wrap;         
+  padding-bottom: 100px;
+  margin-top: 20px;
+}
+
+.card {
+    padding: 30px;
+    text-align: center;
+    display: inline-block; 
+   
+}
+
+.card-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+h4, h5 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+   ;
+}
+
+
+h4 {
+    color: darkblue;
+    margin-top: 50px;
+}
+
+h5 {
+     background-color: gold;
+    color: darkblue;
+}
+
+#contact {
+    text-align: center;
+    background-color: darkblue;
+    padding: 25px;
+}
